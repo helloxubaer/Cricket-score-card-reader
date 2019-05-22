@@ -1,0 +1,8 @@
+BOWLING	,	W
+Hasan Ali	,	1
+Shaheen Shah Afridi	,	5
+Mohammad Hasnain	,	1
+Imad Wasim	,	3
+Fakhar Zaman	,	0
+Shoaib Malik	,	0
+Mohammad Hafeez	,	0

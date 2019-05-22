@@ -1,0 +1,88 @@
+1	,	JP Behrendorff
+2	,	c TM Head b Hasan Ali
+3	,	100
+4	,	32
+5	,	34
+6	,	7
+7	,	0
+8	,	103.12
+9	,	NM Coulter-Nile
+10	,	c Shaheen Shah Afridi b Hasan Ali
+11	,	32
+12	,	21
+13	,	53
+14	,	6
+15	,	0
+16	,	152.38
+17	,	PSP Handscomb
+18	,	c Asif Ali b Hasan Ali
+19	,	84
+20	,	73
+21	,	112
+22	,	9
+23	,	0
+24	,	115.06
+25	,	TM Head
+26	,	c Abid Ali b Shaheen Shah Afridi
+27	,	76
+28	,	64
+29	,	63
+30	,	4
+31	,	5
+32	,	118.75
+33	,	JC Buttler
+34	,	c Abid Ali b Imad Wasim
+35	,	34
+36	,	34
+37	,	40
+38	,	4
+39	,	1
+40	,	100.00
+41	,	BA Stokes
+42	,	c Fakhar Zaman b Hasan Ali
+43	,	21
+44	,	29
+45	,	50
+46	,	2
+47	,	0
+48	,	72.41
+49	,	MM Ali
+50	,	lbw b Imad Wasim
+51	,	0
+52	,	2
+53	,	4
+54	,	0
+55	,	0
+56	,	0.00
+57	,	CR Woakes
+58	,	c Babar Azam b Shaheen Shah Afridi
+59	,	13
+60	,	18
+61	,	25
+62	,	0
+63	,	0
+64	,	72.22
+65	,	DJ Willey
+66	,	b Shaheen Shah Afridi
+67	,	14
+68	,	11
+69	,	23
+70	,	0
+71	,	1
+72	,	127.27
+73	,	TK Curran
+74	,	not out
+75	,	29
+76	,	15
+77	,	21
+78	,	2
+79	,	2
+80	,	193.33
+81	,	AU Rashid
+82	,	not out
+83	,	2
+84	,	2
+85	,	7
+86	,	0
+87	,	0
+88	,	100.00
