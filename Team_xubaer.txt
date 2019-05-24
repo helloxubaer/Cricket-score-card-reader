@@ -4,7 +4,7 @@ PSP Handscomb	,	BAT
 TM Head	,	BAT
 JC Buttler	,	BAT
 MR Marsh	,	BAT
-TD Paine	,	BAT
+TD Paine	,	WK
 KW Richardson	,	BAT
 B Stanlake	,	BAT
 AJ Turner	,	BAT

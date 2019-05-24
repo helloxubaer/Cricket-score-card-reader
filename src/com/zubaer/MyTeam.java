@@ -1,9 +1,6 @@
 package com.zubaer;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
 
 public class MyTeam {
@@ -107,19 +104,21 @@ public class MyTeam {
                 String name =line1[0].trim();
                 for (String key : player.keySet()){
                     if (name.trim().equalsIgnoreCase(key.trim())){
-                        //scanner.skip(scanner.delimiter());
                         int wicket = Integer.parseInt(line1[1].trim());
-                        //scanner.nextLine();
                         Player player1 = player.get(name);
                         int wicketPoint=0;
                         if (wicket<5){
                             wicketPoint=wicket*5;
                         }
                         if (wicket>=5){
-                            wicketPoint+=(25+(wicket-5)*10);
+                            wicketPoint+=(25+(5*5)+(wicket-5)*10);
                         }
                         //System.out.println(wicketPoint);
                         player1.addPoint(wicketPoint);
+                        if (Double.parseDouble(line1[2])<=3.5){
+                            //if bowlers economy below 3.5, bonus 10 points
+                            player1.addPoint(10);
+                        }
                         //hattrik need to be added
                     }
                 }
@@ -144,7 +143,7 @@ public class MyTeam {
                 int length=info.length;
                 String str="";
                 //System.out.println(info[0]);
-                if (info[0].trim().equalsIgnoreCase("c")){
+                if (info[0].trim().equalsIgnoreCase("c") || info[0].trim().equalsIgnoreCase("st")){
                     for (int i=1;i<length;i++){
                         if (!(info[i].trim().equalsIgnoreCase("b"))){
                             str=str+" "+info[i].trim();
@@ -154,11 +153,19 @@ public class MyTeam {
                     }
                 }
                 for (String key : player.keySet()) {
-                    if (str.trim().equalsIgnoreCase(key.trim())) {
+                    if (str.trim().equalsIgnoreCase(key.trim()) ) {
                         Player player1 = player.get(str.trim());
-                        player1.addPoint(1);
+                        //except wK:
+                        if (!player1.getPlayerRole().trim().equals("WK")){
+                            player1.addPoint(2);
+                        }else{
+                            player1.addPoint(5);
+                        }
+
+
                     }
                 }
+
                 //System.out.println(str);
                 for (int i=0;i<6;i++){
                     if (scanner2.hasNextLine()){
@@ -178,20 +185,35 @@ public class MyTeam {
 
     public void pointWrite() {
         File file = new File(teamName.trim());
+        //OutputStreamWriter file = new OutputStreamWriter(new FileOutputStream(teamName.trim()));
         FileWriter fw = null;
         try {
-            fw = new FileWriter(file+ "_points"+".csv");
+            fw = new FileWriter(file+ "_points"+".csv",true);
             for (Player player : player.values()) {
                 teamPoint += player.getTotalPoint();
                 System.out.println("player: " + player.getPlayerName().trim() + " gives " + player.getTotalPoint() + " points");
                 fw.append(("player: " + player.getPlayerName() + " gives " + player.getTotalPoint() + " points ")+"\n" );
                 System.out.println();
             }
-            fw.append("team points: "+teamPoint+"\n");
+            fw.append("team points:"+"\n");
+            fw.append(teamPoint+"\n");
             fw.append("----------------------"+"\n");
             fw.close();
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+    public void manualPointInput(String playerName){
+        Scanner scanner = new Scanner(System.in);
+        for (String key : player.keySet()) {
+            if (playerName.trim().equalsIgnoreCase(key.trim()) ) {
+                Player player1 = player.get(playerName.trim());
+                System.out.println("enter run out/hattrik/MOM/MOT/other points");
+                int extraPoint= scanner.nextInt();
+                scanner.nextLine();
+                player1.addPoint(extraPoint);
+            }
+            scanner.close();
         }
     }
     public Map<String, Player> getPlayer() {

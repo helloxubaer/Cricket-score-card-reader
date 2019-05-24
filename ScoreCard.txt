@@ -7,7 +7,7 @@
 7	,	0
 8	,	103.12
 9	,	NM Coulter-Nile
-10	,	c Shaheen Shah Afridi b Hasan Ali
+10	,	c †Shaheen Shah Afridi b Thakur b Hasan Ali
 11	,	32
 12	,	21
 13	,	53
