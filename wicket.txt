@@ -1,8 +1,0 @@
-BOWLING	,	W	,	ECON
-Hasan Ali	,	1	,	7.00
-Shaheen Shah Afridi	,	2	,	3.20
-Mohammad Hasnain	,	1	,	8.37
-Imad Wasim	,	3	,	5.30
-Fakhar Zaman	,	0	,	5.75
-Shoaib Malik	,	0	,	7.25
-Mohammad Hafeez	,	0	,	6.25

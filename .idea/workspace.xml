@@ -3,15 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="11d0e2d9-8b43-4c99-8b7a-4d3a08c79af6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScoreCard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCard.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team_xubaer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Team_xubaer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team_xubaer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Team_xubaer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team_xubaer.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Team_xubaer_points.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Team_xubaer_points.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WC2019Efferen/META-INF/WC2019Efferen.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WC2019Efferen/com/zubaer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WC2019Efferen/com/zubaer/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WC2019Efferen/com/zubaer/MyTeam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WC2019Efferen/com/zubaer/MyTeam.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/zubaer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zubaer/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/zubaer/MyTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zubaer/MyTeam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wicket.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wicket.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wicket.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,16 +21,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zubaer/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -38,8 +37,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zubaer/MyTeam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="198" column="38" selection-start-line="198" selection-start-column="38" selection-end-line="198" selection-end-column="38" />
+            <state relative-caret-position="442">
+              <caret line="158" column="32" lean-forward="true" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExtraPoint.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -87,10 +95,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -190,18 +198,19 @@
       <workItem from="1558358941990" duration="51109000" />
       <workItem from="1558563161090" duration="6295000" />
       <workItem from="1558608754503" duration="1550000" />
-      <workItem from="1558737364919" duration="517000" />
+      <workItem from="1558737364919" duration="18003000" />
+      <workItem from="1558982846663" duration="1591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59471000" />
+    <option name="totallyTimeSpent" value="78548000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1108742" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11270802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -257,16 +266,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/point sheet.txt" />
     <entry file="file://$PROJECT_DIR$/point_sheet" />
-    <entry file="file://$PROJECT_DIR$/Team_xubaer.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScoreCard.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCard.txt" />
     <entry file="file://$PROJECT_DIR$/Team_xubaer" />
     <entry file="file://$PROJECT_DIR$/point_sheet.txt" />
     <entry file="file://$PROJECT_DIR$/src/com/zubaer/Team.java" />
@@ -274,17 +274,26 @@
     <entry file="file://$PROJECT_DIR$/Team_xubaer_points.txt" />
     <entry file="file://$PROJECT_DIR$/points.csv" />
     <entry file="file://$PROJECT_DIR$/point.csv" />
-    <entry file="file://$PROJECT_DIR$/wicket.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wicket.txt" />
     <entry file="file://$PROJECT_DIR$/Team_xubaer_points.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Team_xubaer.txt" />
+    <entry file="file://$PROJECT_DIR$/src/com/zubaer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExtraPoint.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -295,17 +304,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zubaer/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zubaer/MyTeam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="198" column="38" selection-start-line="198" selection-start-column="38" selection-end-line="198" selection-end-column="38" />
+        <state relative-caret-position="442">
+          <caret line="158" column="32" lean-forward="true" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
         </state>
       </provider>
     </entry>
