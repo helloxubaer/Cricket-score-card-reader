@@ -9,7 +9,7 @@ public class Main {
         teamXubaer.calculateAll();
         //teamXubaer.playerListRead();
         //teamXubaer.runCalculate();
-        //teamXubaer.wicket();
+        //teamXubaer.wicketCalculate();
         //teamXubaer.catchCalculate();
         //teamXubaer.extraPoint();
         //teamXubaer.pointWrite();

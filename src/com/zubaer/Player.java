@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Player {
-    private static Map<String, String> players = new HashMap<>();
+    //private static Map<String, String> players = new HashMap<>();
     private String playerName;
     private String PlayerRole;
-    private  int totalPoint;
+    private  double totalPoint=0;
 
     public Player(String playerName, String playerRole) {
         this.playerName = playerName;
@@ -15,18 +15,18 @@ public class Player {
 
     }
 
-    public int addPoint(int point){
+    public double addPoint(double point){
         totalPoint+=point;
         return totalPoint;
     }
-    public int showPoint(){
+    public double showPoint(){
         System.out.println(totalPoint);
         return totalPoint;
     }
 
-    public static Map<String, String> getPlayer() {
-        return players;
-    }
+    //public static Map<String, String> getPlayer() {
+    //    return players;
+   // }
 
     public String getPlayerName() {
         return playerName;
@@ -36,7 +36,7 @@ public class Player {
         return PlayerRole;
     }
 
-    public  int getTotalPoint() {
+    public  double getTotalPoint() {
         return totalPoint;
     }
 
