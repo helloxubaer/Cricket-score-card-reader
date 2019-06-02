@@ -118,15 +118,19 @@ public class MyTeam {
                 String[] line1 = scanner.nextLine().split(";");
 
                 if (line1.length == 8) {
+                    //System.out.println("*");
                     String name = line1[0].trim();
+                    //System.out.println(name);
+                    String captainCheck = name+" "+"(C)"; // bowling info without (c)
                     for (String key : player.keySet()) {
-                        if (name.trim().equalsIgnoreCase(key.trim())) {//ignore case !!! try russel/Russel
+                        if (name.trim().equalsIgnoreCase(key.trim()) || captainCheck.trim().equalsIgnoreCase(key.trim())) {//ignore case !!! try russel/Russel
                             int wicket = Integer.parseInt(line1[4].trim());
                             int maindenOver = Integer.parseInt(line1[2].trim());
-                            Player player1 = player.get(name);
+                            Player player1 = player.get(key);
                             int wicketPoint = maindenOver * 5;
+                            //System.out.println(wicketPoint);
                             if (wicket < 5) {
-                                wicketPoint = wicket * 10;
+                                wicketPoint += wicket * 10;
                             }
                             if (wicket >= 5) {
                                 wicketPoint += (25 + (5 * 10) + (wicket - 5) * 15);
@@ -204,11 +208,13 @@ public class MyTeam {
                          || str3.trim().equalsIgnoreCase(key.trim()) || str4.trim().equalsIgnoreCase(key.trim())) {
                         String foundName = key.trim();
                         Player player1 = player.get(foundName);
+                        System.out.println("******");
+                        System.out.println(player1);
                         //except wK:
-                        if (!player1.getPlayerRole().trim().equals("WK")) {
+                        if (!player1.getPlayerRole().trim().equalsIgnoreCase(";WK")) {
                             player1.addPoint(2);
                         } else {
-                            player1.addPoint(10);
+                            player1.addPoint(5);
                         }
                     }
                 }
@@ -286,7 +292,7 @@ public class MyTeam {
         SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
         //System.out.println(formatter.format(calendar.getTime()));
         String date = formatter.format(calendar.getTime());
-        //String date ="28-05-2019";
+        //String date ="30-05-2019";
 
         File file = new File("Generated point sheets/Points");
         FileWriter fw = null;
